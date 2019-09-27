@@ -5,6 +5,13 @@ Run ussd code directly in your application
 
 ## Getting Started
 
+On Android you'll need to add either the `ACCESS_COARSE_LOCATION` permission to your Android Manifest. To do so open the AndroidManifest.xml file (located under android/app/src/main) and add one of the following one line as direct children of the `<manifest>` tag:
+``` Xml
+
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+
+```
+
 ``` Dart
 
 import 'package:flutter/material.dart';
