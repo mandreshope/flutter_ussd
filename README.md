@@ -1,5 +1,7 @@
 # ussd
 
+![GitHub](https://github.com/Mandreshope/flutter_ussd)
+
 Run ussd code directly in your application
 
 ## Getting Started
