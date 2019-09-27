@@ -32,7 +32,7 @@ public class UssdPlugin implements MethodCallHandler {
   private boolean requestingPermission;
   
   public static void registerWith(Registrar registrar) {
-    final MethodChannel channel = new MethodChannel(registrar.messenger(), "hussd");
+    final MethodChannel channel = new MethodChannel(registrar.messenger(), "ussd");
     channel.setMethodCallHandler(new UssdPlugin(registrar, registrar.activity(), channel));
   }
 
