@@ -1,6 +1,6 @@
 # ussd
 
-![GitHub](https://github.com/Mandreshope/flutter_ussd)
+[![pub package](https://img.shields.io/pub/v/wave.svg?style=flat-square)](https://pub.dev/packages/ussd) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?longCache=true&style=flat-square)
 
 Run ussd code directly in your application
 
@@ -11,7 +11,7 @@ Run ussd code directly in your application
 import 'package:flutter/material.dart';
 import 'dart:async';
 
-import 'package:hussd/hussd.dart';
+import 'package:ussd/ussd.dart';
 
 void main() => runApp(MyApp());
 
@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
   }
 
   Future<void> launchUssd(String ussdCode) async {
-    Hussd.runUssd(ussdCode);
+    Ussd.runUssd(ussdCode);
   }
 
   @override
