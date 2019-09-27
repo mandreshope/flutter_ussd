@@ -1,7 +1,7 @@
 name: ussd
 description: Run ussd code directly in your application.
 version: 0.0.1
-author: Randrianarinjaka Mandresy
+author: Randrianarinjaka Mandresy <mandreshope@gmail.com>
 homepage: https://github.com/Mandreshope/flutter_ussd
 
 environment:
