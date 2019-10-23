@@ -1,10 +1,16 @@
 # ussd
 
-[![pub package](https://img.shields.io/pub/v/wave.svg?style=flat-square)](https://pub.dev/packages/ussd) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?longCache=true&style=flat-square)
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?longCache=true&style=flat-square)
 
 Run ussd code directly in your application
 
 ## Getting Started
+
+On Android you'll need to add either the `ACCESS_CALL_PHONE` permission to your Android Manifest. To do so open the AndroidManifest.xml file (located under android/app/src/main) and add one of the following one line as direct children of the `<manifest>` tag:
+``` Xml
+<uses-permission android:name="android.permission.CALL_PHONE"/>
+```
+### main.dart
 
 ``` Dart
 
