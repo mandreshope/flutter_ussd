@@ -1,5 +1,5 @@
 # ussd
-[![pub package](https://img.shields.io/pub/v/wave.svg?style=flat-square)](https://pub.dev/packages/ussd) ![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?longCache=true&style=flat-square)
+![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg?longCache=true&style=flat-square)
 
 Run ussd code directly in your application
 
@@ -9,6 +9,7 @@ On Android you'll need to add either the `ACCESS_CALL_PHONE` permission to your 
 ``` Xml
 <uses-permission android:name="android.permission.CALL_PHONE"/>
 ```
+### main.dart
 
 ``` Dart
 
